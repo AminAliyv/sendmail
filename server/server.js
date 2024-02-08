@@ -9,8 +9,8 @@ const port = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-const userEmail = 'asdfdsfadsfsad@gmail.com';
-const userPassword = 'syrm rlwe bjel mwxm';
+const userEmail = 'yourmailadress@gmail.com';
+const userPassword = 'app password';
 
 app.post('/send-mail', (req, res) => {
   const recipientEmail = req.body.recipientEmail; // Değişiklik
